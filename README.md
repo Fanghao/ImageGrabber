@@ -2,7 +2,7 @@
 
 An open source iOS application to grab online images through search. This project uses Google Image Search as an example.
 
-![ImageGrabber animated GIF](http://s30.postimg.org/nw3lhi5zj/Image_Grabber_Demo.gif)
+![ImageGrabber animated GIF](Screenshots/ImageGrabberDemo.gif)
 
 ## Requirements
 
