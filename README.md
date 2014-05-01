@@ -1,4 +1,4 @@
-# ImageGrabber 
+# ImageGrabber [![Build Status](https://api.travis-ci.org/Fanghao/ImageGrabber.png?branch=master)](https://api.travis-ci.org/Fanghao/ImageGrabber?branch=master)
 
 An open source iOS application to grab online images through search. This project uses Google Image Search as an example.
 
