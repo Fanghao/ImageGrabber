@@ -17,23 +17,8 @@
 		C16917B3190F3E52000BBD00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16917B1190F3E52000BBD00 /* Main.storyboard */; };
 		C16917B6190F3E52000BBD00 /* ImageGrabberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16917B5190F3E52000BBD00 /* ImageGrabberViewController.m */; };
 		C16917B8190F3E52000BBD00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16917B7190F3E52000BBD00 /* Images.xcassets */; };
-		C16917BF190F3E52000BBD00 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16917BE190F3E52000BBD00 /* XCTest.framework */; };
-		C16917C0190F3E52000BBD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C169179F190F3E51000BBD00 /* Foundation.framework */; };
-		C16917C1190F3E52000BBD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16917A3190F3E51000BBD00 /* UIKit.framework */; };
-		C16917C9190F3E52000BBD00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C16917C7190F3E52000BBD00 /* InfoPlist.strings */; };
-		C16917CB190F3E52000BBD00 /* ImageGrabberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C16917CA190F3E52000BBD00 /* ImageGrabberTests.m */; };
 		C16917D8190F692A000BBD00 /* ImageGrabberModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16917D7190F692A000BBD00 /* ImageGrabberModalViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C16917C2190F3E52000BBD00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1691794190F3E51000BBD00 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C169179B190F3E51000BBD00;
-			remoteInfo = ImageGrabber;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8D313B83D20043CEA558731A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,11 +36,7 @@
 		C16917B4190F3E52000BBD00 /* ImageGrabberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageGrabberViewController.h; sourceTree = "<group>"; };
 		C16917B5190F3E52000BBD00 /* ImageGrabberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberViewController.m; sourceTree = "<group>"; };
 		C16917B7190F3E52000BBD00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C16917BD190F3E52000BBD00 /* ImageGrabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGrabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16917BE190F3E52000BBD00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C16917C6190F3E52000BBD00 /* ImageGrabberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageGrabberTests-Info.plist"; sourceTree = "<group>"; };
-		C16917C8190F3E52000BBD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C16917CA190F3E52000BBD00 /* ImageGrabberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberTests.m; sourceTree = "<group>"; };
 		C16917D6190F692A000BBD00 /* ImageGrabberModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGrabberModalViewController.h; sourceTree = "<group>"; };
 		C16917D7190F692A000BBD00 /* ImageGrabberModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberModalViewController.m; sourceTree = "<group>"; };
 		D7AD2331BA4E439E9284F6CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -73,16 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C16917BA190F3E52000BBD00 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C16917BF190F3E52000BBD00 /* XCTest.framework in Frameworks */,
-				C16917C1190F3E52000BBD00 /* UIKit.framework in Frameworks */,
-				C16917C0190F3E52000BBD00 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				C16917A5190F3E51000BBD00 /* ImageGrabber */,
-				C16917C4190F3E52000BBD00 /* ImageGrabberTests */,
 				C169179E190F3E51000BBD00 /* Frameworks */,
 				C169179D190F3E51000BBD00 /* Products */,
 				D7AD2331BA4E439E9284F6CD /* Pods.xcconfig */,
@@ -101,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				C169179C190F3E51000BBD00 /* ImageGrabber.app */,
-				C16917BD190F3E52000BBD00 /* ImageGrabberTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,24 +114,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C16917C4190F3E52000BBD00 /* ImageGrabberTests */ = {
-			isa = PBXGroup;
-			children = (
-				C16917CA190F3E52000BBD00 /* ImageGrabberTests.m */,
-				C16917C5190F3E52000BBD00 /* Supporting Files */,
-			);
-			path = ImageGrabberTests;
-			sourceTree = "<group>";
-		};
-		C16917C5190F3E52000BBD00 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C16917C6190F3E52000BBD00 /* ImageGrabberTests-Info.plist */,
-				C16917C7190F3E52000BBD00 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,24 +136,6 @@
 			productReference = C169179C190F3E51000BBD00 /* ImageGrabber.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C16917BC190F3E52000BBD00 /* ImageGrabberTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C16917D1190F3E52000BBD00 /* Build configuration list for PBXNativeTarget "ImageGrabberTests" */;
-			buildPhases = (
-				C16917B9190F3E52000BBD00 /* Sources */,
-				C16917BA190F3E52000BBD00 /* Frameworks */,
-				C16917BB190F3E52000BBD00 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C16917C3190F3E52000BBD00 /* PBXTargetDependency */,
-			);
-			name = ImageGrabberTests;
-			productName = ImageGrabberTests;
-			productReference = C16917BD190F3E52000BBD00 /* ImageGrabberTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,11 +145,6 @@
 				CLASSPREFIX = ImageGrabber;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Fanghao Chen";
-				TargetAttributes = {
-					C16917BC190F3E52000BBD00 = {
-						TestTargetID = C169179B190F3E51000BBD00;
-					};
-				};
 			};
 			buildConfigurationList = C1691797190F3E51000BBD00 /* Build configuration list for PBXProject "ImageGrabber" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -232,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				C169179B190F3E51000BBD00 /* ImageGrabber */,
-				C16917BC190F3E52000BBD00 /* ImageGrabberTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,14 +172,6 @@
 				C16917B8190F3E52000BBD00 /* Images.xcassets in Resources */,
 				C16917AA190F3E51000BBD00 /* InfoPlist.strings in Resources */,
 				C16917B3190F3E52000BBD00 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C16917BB190F3E52000BBD00 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C16917C9190F3E52000BBD00 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,23 +222,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C16917B9190F3E52000BBD00 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C16917CB190F3E52000BBD00 /* ImageGrabberTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C16917C3190F3E52000BBD00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C169179B190F3E51000BBD00 /* ImageGrabber */;
-			targetProxy = C16917C2190F3E52000BBD00 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C16917A8190F3E51000BBD00 /* InfoPlist.strings */ = {
@@ -336,14 +239,6 @@
 				C16917B2190F3E52000BBD00 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C16917C7190F3E52000BBD00 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C16917C8190F3E52000BBD00 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -449,46 +344,6 @@
 			};
 			name = Release;
 		};
-		C16917D2190F3E52000BBD00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageGrabber.app/ImageGrabber";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ImageGrabber/ImageGrabber-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ImageGrabberTests/ImageGrabberTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		C16917D3190F3E52000BBD00 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageGrabber.app/ImageGrabber";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ImageGrabber/ImageGrabber-Prefix.pch";
-				INFOPLIST_FILE = "ImageGrabberTests/ImageGrabberTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -506,15 +361,6 @@
 			buildConfigurations = (
 				C16917CF190F3E52000BBD00 /* Debug */,
 				C16917D0190F3E52000BBD00 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C16917D1190F3E52000BBD00 /* Build configuration list for PBXNativeTarget "ImageGrabberTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C16917D2190F3E52000BBD00 /* Debug */,
-				C16917D3190F3E52000BBD00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
