@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		696EDF43674B40D6B145E772 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D313B83D20043CEA558731A /* libPods.a */; };
+		C165E7AB1915932400270F79 /* ImageGrabberControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C165E7AA1915932400270F79 /* ImageGrabberControllerTransition.m */; };
 		C16917A0190F3E51000BBD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C169179F190F3E51000BBD00 /* Foundation.framework */; };
 		C16917A2190F3E51000BBD00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16917A1190F3E51000BBD00 /* CoreGraphics.framework */; };
 		C16917A4190F3E51000BBD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16917A3190F3E51000BBD00 /* UIKit.framework */; };
@@ -15,13 +16,21 @@
 		C16917AC190F3E51000BBD00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C16917AB190F3E51000BBD00 /* main.m */; };
 		C16917B0190F3E52000BBD00 /* ImageGrabberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C16917AF190F3E51000BBD00 /* ImageGrabberAppDelegate.m */; };
 		C16917B3190F3E52000BBD00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16917B1190F3E52000BBD00 /* Main.storyboard */; };
-		C16917B6190F3E52000BBD00 /* ImageGrabberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16917B5190F3E52000BBD00 /* ImageGrabberViewController.m */; };
 		C16917B8190F3E52000BBD00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16917B7190F3E52000BBD00 /* Images.xcassets */; };
-		C16917D8190F692A000BBD00 /* ImageGrabberModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16917D7190F692A000BBD00 /* ImageGrabberModalViewController.m */; };
+		C18DB2AE1912230F005B74B4 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C18DB2AD1912230F005B74B4 /* placeholder.png */; };
+		C18DB2B319123CCB005B74B4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18DB2B219123CCB005B74B4 /* Accelerate.framework */; };
+		C1AE3F831914F73C00315D91 /* ImageGrabberModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AE3F771914F73C00315D91 /* ImageGrabberModalViewController.m */; };
+		C1AE3F841914F73C00315D91 /* ImageGrabberCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AE3F791914F73C00315D91 /* ImageGrabberCollectionViewController.m */; };
+		C1AE3F851914F73C00315D91 /* ImageGrabberContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AE3F7C1914F73C00315D91 /* ImageGrabberContentCell.m */; };
+		C1AE3F861914F73C00315D91 /* ImageGrabberScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AE3F7E1914F73C00315D91 /* ImageGrabberScrollView.m */; };
+		C1AE3F871914F73C00315D91 /* ImageGrabberUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AE3F801914F73C00315D91 /* ImageGrabberUtils.m */; };
+		C1AE3F881914F73C00315D91 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AE3F821914F73C00315D91 /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D313B83D20043CEA558731A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C165E7A91915932400270F79 /* ImageGrabberControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGrabberControllerTransition.h; sourceTree = "<group>"; };
+		C165E7AA1915932400270F79 /* ImageGrabberControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberControllerTransition.m; sourceTree = "<group>"; };
 		C169179C190F3E51000BBD00 /* ImageGrabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C169179F190F3E51000BBD00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C16917A1190F3E51000BBD00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -33,12 +42,22 @@
 		C16917AE190F3E51000BBD00 /* ImageGrabberAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageGrabberAppDelegate.h; sourceTree = "<group>"; };
 		C16917AF190F3E51000BBD00 /* ImageGrabberAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberAppDelegate.m; sourceTree = "<group>"; };
 		C16917B2190F3E52000BBD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C16917B4190F3E52000BBD00 /* ImageGrabberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageGrabberViewController.h; sourceTree = "<group>"; };
-		C16917B5190F3E52000BBD00 /* ImageGrabberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberViewController.m; sourceTree = "<group>"; };
 		C16917B7190F3E52000BBD00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C16917BE190F3E52000BBD00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C16917D6190F692A000BBD00 /* ImageGrabberModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGrabberModalViewController.h; sourceTree = "<group>"; };
-		C16917D7190F692A000BBD00 /* ImageGrabberModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberModalViewController.m; sourceTree = "<group>"; };
+		C18DB2AD1912230F005B74B4 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		C18DB2B219123CCB005B74B4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C1AE3F761914F73C00315D91 /* ImageGrabberModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGrabberModalViewController.h; sourceTree = "<group>"; };
+		C1AE3F771914F73C00315D91 /* ImageGrabberModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberModalViewController.m; sourceTree = "<group>"; };
+		C1AE3F781914F73C00315D91 /* ImageGrabberCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGrabberCollectionViewController.h; sourceTree = "<group>"; };
+		C1AE3F791914F73C00315D91 /* ImageGrabberCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberCollectionViewController.m; sourceTree = "<group>"; };
+		C1AE3F7B1914F73C00315D91 /* ImageGrabberContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGrabberContentCell.h; sourceTree = "<group>"; };
+		C1AE3F7C1914F73C00315D91 /* ImageGrabberContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberContentCell.m; sourceTree = "<group>"; };
+		C1AE3F7D1914F73C00315D91 /* ImageGrabberScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGrabberScrollView.h; sourceTree = "<group>"; };
+		C1AE3F7E1914F73C00315D91 /* ImageGrabberScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberScrollView.m; sourceTree = "<group>"; };
+		C1AE3F7F1914F73C00315D91 /* ImageGrabberUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGrabberUtils.h; sourceTree = "<group>"; };
+		C1AE3F801914F73C00315D91 /* ImageGrabberUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGrabberUtils.m; sourceTree = "<group>"; };
+		C1AE3F811914F73C00315D91 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C1AE3F821914F73C00315D91 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		D7AD2331BA4E439E9284F6CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18DB2B319123CCB005B74B4 /* Accelerate.framework in Frameworks */,
 				C16917A2190F3E51000BBD00 /* CoreGraphics.framework in Frameworks */,
 				C16917A4190F3E51000BBD00 /* UIKit.framework in Frameworks */,
 				C16917A0190F3E51000BBD00 /* Foundation.framework in Frameworks */,
@@ -62,8 +82,8 @@
 			children = (
 				C16917A5190F3E51000BBD00 /* ImageGrabber */,
 				C169179E190F3E51000BBD00 /* Frameworks */,
-				C169179D190F3E51000BBD00 /* Products */,
 				D7AD2331BA4E439E9284F6CD /* Pods.xcconfig */,
+				C169179D190F3E51000BBD00 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +98,7 @@
 		C169179E190F3E51000BBD00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C18DB2B219123CCB005B74B4 /* Accelerate.framework */,
 				C169179F190F3E51000BBD00 /* Foundation.framework */,
 				C16917A1190F3E51000BBD00 /* CoreGraphics.framework */,
 				C16917A3190F3E51000BBD00 /* UIKit.framework */,
@@ -90,14 +111,13 @@
 		C16917A5190F3E51000BBD00 /* ImageGrabber */ = {
 			isa = PBXGroup;
 			children = (
+				C1AE3F751914F73C00315D91 /* Controllers */,
+				C1AE3F7A1914F73C00315D91 /* Helpers */,
 				C16917AE190F3E51000BBD00 /* ImageGrabberAppDelegate.h */,
 				C16917AF190F3E51000BBD00 /* ImageGrabberAppDelegate.m */,
-				C16917B1190F3E52000BBD00 /* Main.storyboard */,
-				C16917B4190F3E52000BBD00 /* ImageGrabberViewController.h */,
-				C16917B5190F3E52000BBD00 /* ImageGrabberViewController.m */,
-				C16917D6190F692A000BBD00 /* ImageGrabberModalViewController.h */,
-				C16917D7190F692A000BBD00 /* ImageGrabberModalViewController.m */,
 				C16917B7190F3E52000BBD00 /* Images.xcassets */,
+				C16917B1190F3E52000BBD00 /* Main.storyboard */,
+				C18DB2AD1912230F005B74B4 /* placeholder.png */,
 				C16917A6190F3E51000BBD00 /* Supporting Files */,
 			);
 			path = ImageGrabber;
@@ -112,6 +132,36 @@
 				C16917AD190F3E51000BBD00 /* ImageGrabber-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1AE3F751914F73C00315D91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1AE3F761914F73C00315D91 /* ImageGrabberModalViewController.h */,
+				C1AE3F771914F73C00315D91 /* ImageGrabberModalViewController.m */,
+				C1AE3F781914F73C00315D91 /* ImageGrabberCollectionViewController.h */,
+				C1AE3F791914F73C00315D91 /* ImageGrabberCollectionViewController.m */,
+				C165E7A91915932400270F79 /* ImageGrabberControllerTransition.h */,
+				C165E7AA1915932400270F79 /* ImageGrabberControllerTransition.m */,
+			);
+			name = Controllers;
+			path = Classes/Controllers;
+			sourceTree = "<group>";
+		};
+		C1AE3F7A1914F73C00315D91 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C1AE3F7B1914F73C00315D91 /* ImageGrabberContentCell.h */,
+				C1AE3F7C1914F73C00315D91 /* ImageGrabberContentCell.m */,
+				C1AE3F7D1914F73C00315D91 /* ImageGrabberScrollView.h */,
+				C1AE3F7E1914F73C00315D91 /* ImageGrabberScrollView.m */,
+				C1AE3F7F1914F73C00315D91 /* ImageGrabberUtils.h */,
+				C1AE3F801914F73C00315D91 /* ImageGrabberUtils.m */,
+				C1AE3F811914F73C00315D91 /* UIImage+ImageEffects.h */,
+				C1AE3F821914F73C00315D91 /* UIImage+ImageEffects.m */,
+			);
+			name = Helpers;
+			path = Classes/Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C16917B8190F3E52000BBD00 /* Images.xcassets in Resources */,
+				C18DB2AE1912230F005B74B4 /* placeholder.png in Resources */,
 				C16917AA190F3E51000BBD00 /* InfoPlist.strings in Resources */,
 				C16917B3190F3E52000BBD00 /* Main.storyboard in Resources */,
 			);
@@ -215,10 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16917D8190F692A000BBD00 /* ImageGrabberModalViewController.m in Sources */,
-				C16917B6190F3E52000BBD00 /* ImageGrabberViewController.m in Sources */,
+				C1AE3F881914F73C00315D91 /* UIImage+ImageEffects.m in Sources */,
 				C16917B0190F3E52000BBD00 /* ImageGrabberAppDelegate.m in Sources */,
+				C1AE3F831914F73C00315D91 /* ImageGrabberModalViewController.m in Sources */,
+				C165E7AB1915932400270F79 /* ImageGrabberControllerTransition.m in Sources */,
+				C1AE3F851914F73C00315D91 /* ImageGrabberContentCell.m in Sources */,
+				C1AE3F841914F73C00315D91 /* ImageGrabberCollectionViewController.m in Sources */,
 				C16917AC190F3E51000BBD00 /* main.m in Sources */,
+				C1AE3F871914F73C00315D91 /* ImageGrabberUtils.m in Sources */,
+				C1AE3F861914F73C00315D91 /* ImageGrabberScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
