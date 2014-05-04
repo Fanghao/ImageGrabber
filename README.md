@@ -19,7 +19,7 @@ An open source iOS application to grab online images through search. This projec
 
 * AFNetworking
 * SDWebImage
-* GPUImage
+* UIImage+ImageEffects
 * CocoaPods
 
 ## How To Run
